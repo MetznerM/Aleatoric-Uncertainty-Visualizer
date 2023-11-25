@@ -21,8 +21,8 @@ Die Imputation der Daten erfolgt auf zwei Arten. Dies ermöglicht den Vergleich 
 
 Für einen Vergleich wird eine KDE für die Attribute aus den imputierten Daten erstellt, sowie aus den Ground Truth Daten.
 <div style="display: flex;">
-  <img src="/images/iris_kde_pw_gt.png" style="width: 50%;" />
-  <img src="/images/iris_kde_pw.png" style="width: 50%;" /> 
+  <img src="/images/iris_kde_pw_gt.png" style="width: 45%;" />
+  <img src="/images/iris_kde_pw.png" style="width: 45%;" /> 
 </div>
 
 ## Erstellen eines NN
@@ -44,13 +44,13 @@ Hierfür wurde zunächst mittels Bayesian Information Criterion (BIC) eine passe
 
 Mittels Plots wie Scatter und Surface wurde das jeweilige GMM mit dessen Komponenten visualisiert.
 <div style="display: flex;">
-  <img src="/images/iris_gmm_gt_final.png" style="width: 50%;" />
-  <img src="/images/iris_gmm_final.png" style="width: 50%;" /> 
+  <img src="/images/iris_gmm_gt_final.png" style="width: 45%;" />
+  <img src="/images/iris_gmm_final.png" style="width: 45%;" /> 
 </div>
 <div style="display: flex;">
-  <img src="/images/iris_pdf.png" style="width: 33%;" />
-  <img src="/images/iris_log.png" style="width: 33%;" /> 
-  <img src="/images/iris_scatter_1-4-3_neuron.png" style="width: 33%;" /> 
+  <img src="/images/iris_pdf.png" style="width: 30%;" />
+  <img src="/images/iris_log.png" style="width: 30%;" /> 
+  <img src="/images/iris_scatter_1-4-3_neuron.png" style="width: 30%;" /> 
 </div>
 
 ## Verwendung des Skripts
