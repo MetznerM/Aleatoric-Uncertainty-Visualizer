@@ -57,7 +57,9 @@ Mittels Plots wie Scatter und Surface wurde das jeweilige GMM mit dessen Kompone
 ```bash
 pip install requirements.txt
 
-python visualizer.py --dataset=iris --num_sim=1000
+python visualizer.py --dataset=iris --num_sim=1000 --missing=30 --use_gt=False
 ```
-- --dataset: gibt den Datensatz an (```iris``` ```heart``` ```housing```)
-- --num_sim: gibt die Anzahl an Monte Carlo Simulation an
+- --dataset: gibt den Datensatz an (```iris``` ```heart``` ```housing```) (default: iris)
+- --num_sim: gibt die Anzahl an Monte Carlo Simulation an (default: 1000)
+- --missing: gibt den Prozentsatz an fehlenden Werten an (default: 30)
+- --use_gt: gibt an, ob die Originaldaten verwendet werden sollen (default: False)
