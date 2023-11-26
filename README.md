@@ -1,7 +1,7 @@
 # Aleatoric-Uncertainty-Visualizer
 Diese Python-Projekt wurde im Rahmen der Bachelorarbeit "Aleatorische Unsicherheit bei Neuronalen Netzen: Eine Analyse von Output-Verteilungen" entwickelt. Die Skripte ermöglichen die Analyse von aleatorischer Unsicherheit in neuronalen Netzen durch die Verarbeitung von drei ausgewählten Datensätzen: [Iris Dataset](https://www.kaggle.com/datasets/uciml/iris), [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) und [Melbourne Housing Dataset](https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot/data).
 
-Der Ordner ```legacy``` enthält die in der Bachelorarbeit verwendeten Skripte, inklusive ```imputation_deterministic.py``` und ```imputation_eval_main_V2.py```. Die restlichen Skripte fassen den Code-Ablauf verständlicher und generischer zusammen.
+Der Ordner ```legacy``` enthält die in der Bachelorarbeit verwendeten Skripte, inklusive ```kde_helper.py```, ```imputation_deterministic.py``` und ```imputation_eval_main_V2.py```. Die restlichen Skripte fassen den Code-Ablauf verständlicher und generischer zusammen.
 
 Ablauf
 1. Imputation der Daten
